@@ -15,16 +15,16 @@ const Profile = () => {
 							<h3 className='company-name'>S and S Technologies</h3>
 						</div>
 						<hr style={{ width: '100%' }} />
-						<div className='card-text'>
+						<div className='card-text xs'>
 							<div className='row ' style={{ fontSize: '0.9rem' }}>
-								<div className='col-md-4 col-sm-6 col-6 '>
-									<i className='fa fa-phone' aria-hidden='true' /> 12345678
+								<div className='col-md-4 col-sm-6 col-6 xs '>
+									<i className='fa fa-phone' aria-hidden='true' /> <span>12345678</span>
 								</div>
-								<div className='col-md-4 col-sm-6 col-6 '>
-									<i className='fa fa-envelope' aria-hidden='true' /> john@example.com
+								<div className='col-md-4 col-sm-6 col-6 xs'>
+									<i className='fa fa-envelope' aria-hidden='true' /> <span>john@example.com</span>
 								</div>
-								<div className='col-md-4 col-sm-6 col-6 '>
-									<i className='fa fa-briefcase' aria-hidden='true' /> some id
+								<div className='col-md-4 col-sm-6 col xs'>
+									<i className='fa fa-briefcase' aria-hidden='true' /> <span>some id</span>
 								</div>
 							</div>
 						</div>

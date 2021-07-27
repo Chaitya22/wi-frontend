@@ -10,7 +10,7 @@ import PersonIcon from '@material-ui/icons/Person';
 function Navbar() {
 	const [ value, setValue ] = React.useState(0);
 	return (
-		<div className=' card fixed-bottom '>
+		<div className=' xs card fixed-bottom '>
 			<BottomNavigation
 				showLabels
 				value={value}
